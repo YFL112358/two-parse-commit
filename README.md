@@ -36,6 +36,7 @@
 	此时B、C回复A“太可惜了”，D回复A“不好意思”。至此该事务终止。
 #案例
   	假设一个情景，你想从账户 A 转钱到账户 B ，MongoDB里，你可以模仿两阶段提交来达到从 A 账户上减去钱并且为 B 账户添加上钱
+	
 	详情参考：http://docs.mongoing.com/manual-zh/tutorial/perform-two-phase-commits.html#pattern
 
   
