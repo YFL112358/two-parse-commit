@@ -1,7 +1,6 @@
 # two-phase-commit
 #概要
-	MongoDB数据库中操作single-document总是原子性的，然而，涉及multi-document的操作，而不是原子性的。在这些情况下，使用two-phase-
-	
+	MongoDB数据库中操作single-document总是原子性的，然而，涉及multi-document的操作，不是原子性的。在这些情况下，使用two-phase-	
 	commit，提供这些类型的multi-document操作支持
 #背景
 	当执行一个由连续操作组成的事务时，某些问题出现了，比如：
